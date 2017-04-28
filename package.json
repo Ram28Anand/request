@@ -10,6 +10,7 @@
   "license": "BSD-2-Clause",
   "dependencies": {
     "http": "0.0.0",
-    "request": "~2.81.0"
+    "request": "~2.81.0",
+    "node-cache": "~4.1.1"
   }
 }
