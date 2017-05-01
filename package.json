@@ -4,13 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/jasmine-node spec"
   },
   "author": "",
   "license": "BSD-2-Clause",
   "dependencies": {
     "http": "0.0.0",
     "request": "~2.81.0",
-    "node-cache": "~4.1.1"
+    "node-cache": "~4.1.1",
+    "jasmine-node": "~1.14.5",
+    "promise": "~7.1.1"
   }
 }
